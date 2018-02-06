@@ -18,7 +18,7 @@ class EmployeeEditor extends Component {
       employee: Object.assign({}, props.selected),
       originalEmployee: props.selected,
       notModified: true
-    }, console.log(props))
+    })
   }
 
   handleChange(prop, val) {
